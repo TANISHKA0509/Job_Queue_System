@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "queuectl"
+version = "0.1.0"
+description = "A production-grade CLI background job queue backed by SQLite."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "queuectl maintainers" }]
+dependencies = [
+    "typer>=0.12.0",
+    "rich>=13.7.0",
+    "sqlalchemy>=2.0.0",
+    "pydantic>=2.7.0",
+    "structlog>=24.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[project.scripts]
+queuectl = "queuectl.cli.app:main"
+
+[tool.setuptools.packages.find]
+include = ["queuectl*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

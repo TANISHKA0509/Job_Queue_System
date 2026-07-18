@@ -1,0 +1,13 @@
+Queue Status
+
++-----------------+-------+
+| Metric          | Value |
++-----------------+-------+
+| Active workers  |     3 |
+| Pending jobs    |     5 |
+| Processing jobs |     2 |
+| Completed jobs  |    21 |
+| Failed jobs     |     1 |
+| Dead jobs       |     2 |
++-----------------+-------+
+

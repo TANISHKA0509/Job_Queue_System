@@ -1,0 +1,11 @@
+services:
+  queuectl:
+    build: .
+    environment:
+      QUEUECTL_DATABASE_URL: sqlite:////data/queuectl.db
+    volumes:
+      - queuectl-data:/data
+
+volumes:
+  queuectl-data:
+

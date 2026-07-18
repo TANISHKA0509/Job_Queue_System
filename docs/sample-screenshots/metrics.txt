@@ -1,0 +1,14 @@
+Queue Metrics
+
++------------------------+--------+
+| Metric                 | Value  |
++------------------------+--------+
+| Total jobs             | 29     |
+| Completed jobs         | 24     |
+| Failed jobs            | 1      |
+| Dead jobs              | 2      |
+| Success rate           | 82.76% |
+| Average execution time | 0.184s |
+| Active workers         | 3      |
++------------------------+--------+
+
