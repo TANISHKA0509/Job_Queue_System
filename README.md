@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# queuectl
+# QueueCTL
 
 queuectl is a production-style CLI background job queue for running shell commands with durable SQLite persistence, parallel workers, retries, a dead-letter queue, configuration, metrics, and polished terminal output.
 
@@ -255,8 +254,3 @@ Suggested recording flow:
 - Named queues and worker capability filters.
 - Containerized command executor.
 - Web or TUI dashboard with historical charts.
-
-=======
-# Job_Queue_System
-QueueCTL is a production-inspired background job processing system that manages asynchronous tasks with retries, worker orchestration, and fault-tolerant job handling.
->>>>>>> 4a2862e612edd5110382227e5f29a3c64dcc989f
